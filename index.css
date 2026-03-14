@@ -7,6 +7,7 @@
 .Navbar-container {
     position: fixed;
     top: 0; left: 0;
+    margin: 10px;
     width: 100%;
     background: lightblue;
     border-bottom: 3px solid #1A1A2E;
@@ -67,6 +68,13 @@
 }
 
 /* About */
+
+/* Contact Us */
+.Input3 textarea {
+    resize: vertical; 
+    min-height: 100px;
+}
+
 
 /* Footer */
 .Footer-Wrapper {
