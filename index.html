@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/flexweek2/index.css">
 </head>
 <body>
     <header>
@@ -28,6 +28,9 @@
     <main>
         <!-- Home Start -->
         <section id="Home" class="hero">
+            <figure class="hero-image">
+                <img src="image/background3.jpg" alt="Robby Arzy Profile Picture"/>
+            </figure>
             <div class="hero-container">
                 <h1 class="hero-heading">Hello, this is team 4</h1>
                 <p class="hero-description">
@@ -39,32 +42,33 @@
                     <li>Robby</li>
                 </ul>
             </div>
-            <figure class="hero-image">
-                <img src="image/background3.jpg" alt="Robby Arzy Profile Picture"/>
-            </figure>
         </section>
         <!-- Home End -->
 
         <!-- About Start -->
         <Section id="About" class="About">
-            <div class="About-Wrapper">
-                <h2>About Us</h2>
-                <div class="About-Container">
-                    <h3>Background</h2>
-                    <p>text</p>
-                </div>
-                <figure>
-                    <img src="image/background2.jpg" style="width: 200px; height: 200px; border-radius: 50px;">
+            <h2 class="about-heading">About Me</h2>
+            <div class="about-container1">
+                <figure class="about-image">
+                    <img src="image/background2.jpg" alt="About Me Image"/>
                 </figure>
+                <section class="about-container2">
+                    <h3 class="about-heading1">Background</h3>
+                        <p class="about-description">
+                            We are a Future Software Engineer with a strong passion for programming and technology. Determined to pursue our goal of becoming a software engineer, we continuously dedicate our time to learning through independent study and various online courses. As a beginner programmer, we focused on building a solid foundation, improving our skills step by step, and growing through every project and challenge we take on.
+                        </p>
+                </section>
             </div>
         </Section>
         <!-- About End -->
 
         <!-- Contact Start -->
         <Section id="Contact" class="Contact">
-            <div class="Contact-Wrapper">
-                <h2>Contact Us</h2>
-                <div class="Contact-Container">
+            <div class="contact-heading">
+                <h2>LET'S GET IN TOUCH</h2>
+            </div>            
+            <div class="contact-text">
+                <div class="contact-placeholder">
                     <form id="form" class="cp-form" action="#" method="post">
                         <div class="Input1">
                             <label for="Name">Your Name</label>
@@ -72,7 +76,7 @@
                         </div>
                         <div class="Input2">
                             <label for="Email">Your Email</label>
-                            <input type="email" id="Email" name="Email" placeholder="Enter Your Email" required>
+                            <input type="text" id="Email" name="Email" placeholder="Enter Your Email" required>
                         </div>
                         <div class="Input3">
                             <label for="Message">Your Message</label>
@@ -83,7 +87,6 @@
                         </div>
                     </form>
                 </div>
-            </div>
         </Section>
         <!-- Contact End -->
     </main>
