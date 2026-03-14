@@ -218,8 +218,9 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .Navbar-links {
-        flex-wrap: wrap;
+    .Navbar-container {
+        display: grid;
+        grid-template-rows: 50px 50px;
     }
 
     .hero {
