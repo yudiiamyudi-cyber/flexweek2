@@ -9,7 +9,6 @@
     width: 100%;
     background: gray;
     border-bottom: 3px solid #1A1A2E;
-    z-index: 999;
     padding: 12px 32px;
     display: flex;
     align-items: center;
@@ -23,10 +22,30 @@
     text-decoration: none;
     text-shadow: 2px 2px 0 #1A1A2E;
   }
+
 .Navbar-links {
     display: flex;
     gap: 8px;
     list-style: none;
+}
+
+.Navbar-links a {
+    font-weight: 800;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #1A1A2E;
+    background: yellow;
+    border: 2px solid #1A1A2E;
+    border-radius: 20px;
+    padding: 4px 14px;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 3px 3px 0 #1A1A2E;
+  }
+  
+  .Navbar-links a:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 #1A1A2E;
+    background: white;
   }
 /* Hero */
 .hero{
@@ -71,5 +90,105 @@
     margin-bottom: 1rem;
 }
 .about-description{
-    max-width: 400px;
+    max-width: 500px;
+}
+
+/* Contact */
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    gap: 2rem;
+}
+.highlight2{
+    color: var(--hover2);
+}
+/* Contact Input Form */
+.Contact{
+    background-color: green;
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 4rem;
+    gap: 3rem;
+}
+.contact-placeholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cp-container{
+    width: 500px;
+}
+.cp-input1,
+.cp-input2,
+.cp-input3{
+    margin-bottom: 1rem;
+}
+.cp-container input,
+.cp-container textarea{
+    width: 100%;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.cp-container textarea{
+    height: 150px;
+}
+/* Button */
+.cp-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+}
+.cp-btn button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--dark);
+    color: var(--light);
+    transition: transform 0.3s ease;
+}
+.cp-btn button:hover{
+    background-color: var(--hover2);
+    color: var(--dark);
+    transform: translateY(-10px);
+}
+
+/* Footer */
+.Footer-Wrapper {
+    background-color: lightblue;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.Footer-Wrapper h2 {
+    font-size: 30px;
+    align-self: center;
+}
+
+.Pages {
+    margin: 20px;
+    gap: 20px;
+}
+
+.Pages h2 {
+    margin-bottom: 3px;
+}
+
+.Pages li {
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+}
+
+.Pages li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
