@@ -47,3 +47,29 @@
 }
 
 /* About */
+.About{
+    background-color: aquamarine;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.about-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: justify;
+    padding: 0 1rem 4rem;
+}
+.about-image img{
+    width: 300px;
+    border-radius: 40px;
+}
+.about-heading1{
+    margin-bottom: 1rem;
+}
+.about-description{
+    max-width: 400px;
+}
