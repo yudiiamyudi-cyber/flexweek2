@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 1rem;
+}
+.hero-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.hero-container li{
+    margin-left: 20px;
+}
