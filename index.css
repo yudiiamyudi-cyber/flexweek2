@@ -3,30 +3,45 @@
     padding: 0;
 }
 
+/* navigation */
 .Navbar-container {
     position: fixed;
     top: 0; left: 0;
     width: 100%;
-    background: gray;
+    background: lightblue;
     border-bottom: 3px solid #1A1A2E;
-    z-index: 999;
     padding: 12px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .Navbar-logo {
-    font-family: 'Bangers', cursive;
-    font-size: 1.6rem;
-    color: white;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #1A1A2E;
-  }
+    
+}
+
 .Navbar-links {
     display: flex;
     gap: 8px;
     list-style: none;
+}
+
+.Navbar-links a {
+    font-weight: 800;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #1A1A2E;
+    background: yellow;
+    border: 2px solid #1A1A2E;
+    border-radius: 20px;
+    padding: 4px 14px;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 3px 3px 0 #1A1A2E;
+  }
+  
+  .Navbar-links a:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 #1A1A2E;
+    background: white;
   }
 /* Hero */
 .hero{
