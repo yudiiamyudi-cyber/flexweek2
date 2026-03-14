@@ -15,8 +15,13 @@
     align-items: center;
     justify-content: space-between;
 }
-.Navbar-logo {
-    
+.Navbar-Logo {
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.Navbar-Logo a:hover {
+    cursor: pointer;
 }
 
 .Navbar-links {
