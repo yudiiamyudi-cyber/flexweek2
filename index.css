@@ -218,6 +218,14 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+    .Navbar-container {
+
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
     .Footer-Wrapper {
         flex-direction: column;
         text-align: center;
