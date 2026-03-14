@@ -66,3 +66,38 @@
 }
 
 /* About */
+
+/* Footer */
+.Footer-Wrapper {
+    background-color: lightblue;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.Footer-Wrapper h2 {
+    font-size: 30px;
+    align-self: center;
+}
+
+.Pages {
+    margin: 20px;
+    gap: 20px;
+}
+
+.Pages h2 {
+    margin-bottom: 3px;
+}
+
+.Pages li {
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+}
+
+.Pages li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
