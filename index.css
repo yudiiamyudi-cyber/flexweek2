@@ -2,13 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+.Navbar-container {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    background: gray;
+    border-bottom: 3px solid #1A1A2E;
+    z-index: 999;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar-logo {
+    font-family: 'Bangers', cursive;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #1A1A2E;
+  }
+.Navbar-links {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+  }
 /* Hero */
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin: 0 1rem;
+    padding: 12rem 0 7rem;
+    background-color: aqua;
 }
 .hero-image img{
     width: 200px;
@@ -18,3 +45,5 @@
 .hero-container li{
     margin-left: 20px;
 }
+
+/* About */
