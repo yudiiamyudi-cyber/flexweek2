@@ -222,7 +222,15 @@ body{
 
     }
 
-    main {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .About {
+        grid-template-columns: 1fr;
+    }
+
+    .Contact {
         grid-template-columns: 1fr;
     }
 
