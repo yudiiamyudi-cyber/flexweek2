@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
 .Navbar-logo {
     font-family: 'Bangers', cursive;
     font-size: 1.6rem;
@@ -22,7 +21,7 @@
     letter-spacing: 2px;
     text-decoration: none;
     text-shadow: 2px 2px 0 #1A1A2E;
-}
+  }
 
 .Navbar-links {
     display: flex;
@@ -48,3 +47,22 @@
     box-shadow: 5px 5px 0 #1A1A2E;
     background: white;
   }
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 12rem 0 7rem;
+    background-color: aqua;
+}
+.hero-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.hero-container li{
+    margin-left: 20px;
+}
+
+/* About */
