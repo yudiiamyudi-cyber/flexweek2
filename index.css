@@ -218,8 +218,8 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .Navbar-container {
-
+    .Navbar-links {
+        display: list-item;
     }
 
     .hero {
