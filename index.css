@@ -3,11 +3,12 @@
     padding: 0;
 }
 
+/* navigation */
 .Navbar-container {
     position: fixed;
     top: 0; left: 0;
     width: 100%;
-    background: gray;
+    background: lightblue;
     border-bottom: 3px solid #1A1A2E;
     padding: 12px 32px;
     display: flex;
@@ -15,13 +16,8 @@
     justify-content: space-between;
 }
 .Navbar-logo {
-    font-family: 'Bangers', cursive;
-    font-size: 1.6rem;
-    color: white;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-shadow: 2px 2px 0 #1A1A2E;
-  }
+    
+}
 
 .Navbar-links {
     display: flex;
