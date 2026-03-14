@@ -10,8 +10,8 @@ body{
 /* navigation */
 .Navbar-container {
     position: fixed;
-    top: 0;
-    margin: 0;
+    top: 0; left: 0;
+    margin: 10px;
     width: 100%;
     background: lightblue;
     border-bottom: 3px solid #1A1A2E;
@@ -118,16 +118,14 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.cp-container{
-    width: 500px;
-}
-.cp-input1,
-.cp-input2,
-.cp-input3{
+.Input1,
+.Input2,
+.Input3{
+    width: 400px;
     margin-bottom: 1rem;
 }
-.cp-container input,
-.cp-container textarea{
+.contact-placeholder input,
+.contact-placeholder textarea{
     width: 100%;
     height: 30px;
     border-width: 1px;
