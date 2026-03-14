@@ -67,6 +67,97 @@
 }
 
 /* About */
+.About{
+    background-color: aquamarine;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.about-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: justify;
+    padding: 0 1rem 4rem;
+}
+.about-image img{
+    width: 300px;
+    border-radius: 40px;
+}
+.about-heading1{
+    margin-bottom: 1rem;
+}
+.about-description{
+    max-width: 500px;
+}
+
+/* Contact */
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    gap: 2rem;
+}
+.highlight2{
+    color: var(--hover2);
+}
+/* Contact Input Form */
+.Contact{
+    background-color: green;
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem 4rem;
+    gap: 3rem;
+}
+.contact-placeholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cp-container{
+    width: 500px;
+}
+.cp-input1,
+.cp-input2,
+.cp-input3{
+    margin-bottom: 1rem;
+}
+.cp-container input,
+.cp-container textarea{
+    width: 100%;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.cp-container textarea{
+    height: 150px;
+}
+/* Button */
+.cp-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+}
+.cp-btn button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--dark);
+    color: var(--light);
+    transition: transform 0.3s ease;
+}
+.cp-btn button:hover{
+    background-color: var(--hover2);
+    color: var(--dark);
+    transform: translateY(-10px);
+}
 
 /* Footer */
 .Footer-Wrapper {
