@@ -218,11 +218,19 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .Navbar-container {
-
+    .Navbar-links {
+        display: list-item;
     }
 
-    main {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .About {
+        grid-template-columns: 1fr;
+    }
+
+    .Contact {
         grid-template-columns: 1fr;
     }
 
