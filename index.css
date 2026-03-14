@@ -226,6 +226,20 @@ body{
         grid-template-columns: 1fr;
     }
 
+    .hero{
+        flex-direction: column;
+    }
+    
+    .about-container1{
+        flex-direction: column;
+    }
+    .about-heading{
+        order: 1;
+    }
+    .about-container2{
+        order: 2;
+    }
+
     .Footer-Wrapper {
         flex-direction: column;
         text-align: center;
