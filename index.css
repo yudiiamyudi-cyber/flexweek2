@@ -10,19 +10,20 @@ body{
 /* navigation */
 .Navbar-container {
     position: fixed;
-    top: 0; left: 0;
-    margin: 10px;
+    top: 0;
+    margin: 0;
     width: 100%;
     background: lightblue;
     border-bottom: 3px solid #1A1A2E;
-    padding: 12px 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 0;
 }
 .Navbar-Logo {
     font-size: 1.6rem;
     color: whitesmoke;
+    padding-left: 2rem;
 }
 
 .Navbar-Logo a:hover {
@@ -31,8 +32,9 @@ body{
 
 .Navbar-links {
     display: flex;
-    gap: 8px;
+    gap: 2rem;
     list-style: none;
+    padding-right: 2rem;
 }
 
 .Navbar-links a {
